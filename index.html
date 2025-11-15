@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Dine - Restaurant Management System</title>
+    
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#f97316" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^18.2.0/",
+    "react": "https://esm.sh/react@^18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@^18.2.0/",
+    "socket.io": "https://esm.sh/socket.io@^4.8.1",
+    "dotenv": "https://esm.sh/dotenv@^17.0.1",
+    "express": "https://esm.sh/express@^5.1.0",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "http": "https://esm.sh/http@^0.0.1-security",
+    "qrcode.react": "https://esm.sh/qrcode.react@^3.1.0",
+    "http-proxy-middleware": "https://esm.sh/http-proxy-middleware@^3.0.5",
+    "@google/genai": "https://cdn.jsdelivr.net/npm/@google/genai/dist/index.mjs",
+    "mssql": "https://aistudiocdn.com/mssql@^12.1.0",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "url": "https://aistudiocdn.com/url@^0.11.4",
+    "dotenv/": "https://aistudiocdn.com/dotenv@^17.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

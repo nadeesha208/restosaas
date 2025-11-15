@@ -1,0 +1,26 @@
+{
+  "short_name": "QR Dine",
+  "name": "QR Dine - Restaurant Management System",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f97316",
+  "background_color": "#ffffff",
+  "description": "A comprehensive restaurant management system featuring a QR code-based digital menu, real-time ordering for customers, a Kitchen Display System (KDS) for staff, and an admin panel for menu management. Built with React and Tailwind CSS."
+}
